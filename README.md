@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : SCHWARTZENTRUBER
+- PRÉNOM : Ethan
+- GROUPE : C1
+- URL du site : https://meek-blini-06d7ac.netlify.app/
+- URL FIGMA : https://www.figma.com/design/uvFhZQJNo8Nk91d9zKdlaI/Projet?node-id=15-85&t=xCjmfzMbSDP5v9cA-1
