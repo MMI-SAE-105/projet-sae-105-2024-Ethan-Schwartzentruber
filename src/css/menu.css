@@ -1,43 +1,58 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #0B0B23;
-    color: white;
 }
 
 .menu-container {
+    background-color: #0b0b2a;
+    color: white;
     padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .menu-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .logo img {
-    width: 70px;
-    height: 70px;
+    max-width: 50px;
+    /* Taille maximale pour l'image du logo */
+    position : absolute;
+    left: 40px;
+    top: 30px;
+    /* Maintenir la proportion */
+}
+
+/* Centrage du titre "Menu" */
+.menu-header {
+    display: flex;
+    justify-content: center;
+    /* Centrer horizontalement */
+    align-items: center;
+    /* Centrer verticalement */
+    text-align: center;
+    /* S'assurer que le texte est centré */
 }
 
 .menu-title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 24px;
-    font-weight: bold;
+    /* Ajuster la taille du texte si nécessaire */
+    margin: 10px;
+    /* Espace autour du titre si besoin */
 }
 
 .back-arrow {
-    font-size: 24px;
+    position: absolute;
+    right : 40px;
+    /* Pour placer la flèche à gauche */
 }
 
 .menu-divider {
-    border: none;
-    border-top: 1px solid white;
-    margin: 10px 0;
+    border: 1px solid white;
+    margin: 20px 0;
 }
 
 .menu-items {
@@ -46,16 +61,44 @@ body {
 }
 
 .menu-item {
-    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #bfaaff;
     cursor: pointer;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
 }
 
 .submenu {
     list-style-type: none;
     padding-left: 20px;
-    display: none;
 }
 
-.menu-item:hover .submenu {
-    display: block;
+.submenu li {
+    font-size: 16px;
+}
+
+.submenu li:hover {
+    text-decoration: underline;
+}
+
+.language-switcher {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.language-switcher button {
+    background-color: #4c4cff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.language-switcher button:hover {
+    background-color: #3a3aee;
 }
