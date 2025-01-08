@@ -1,4 +1,4 @@
 function switchLanguage() {
     // Redirection vers la version anglaise
-    window.location.href = '/en/menu.html';
+    window.location.href = '/en/index.html';
 }
