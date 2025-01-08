@@ -19,35 +19,26 @@ body {
 
 .logo img {
     max-width: 50px;
-    /* Taille maximale pour l'image du logo */
     position : absolute;
     left: 40px;
     top: 30px;
-    /* Maintenir la proportion */
 }
 
-/* Centrage du titre "Menu" */
 .menu-header {
     display: flex;
     justify-content: center;
-    /* Centrer horizontalement */
     align-items: center;
-    /* Centrer verticalement */
     text-align: center;
-    /* S'assurer que le texte est centré */
 }
 
 .menu-title {
     font-size: 24px;
-    /* Ajuster la taille du texte si nécessaire */
     margin: 10px;
-    /* Espace autour du titre si besoin */
 }
 
 .back-arrow {
     position: absolute;
     right : 40px;
-    /* Pour placer la flèche à gauche */
 }
 
 .menu-divider {
